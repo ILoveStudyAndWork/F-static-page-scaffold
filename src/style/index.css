@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,30 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+header, main {
+  border:1px solid blue;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 150px;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+}
+h1{
+  margin: 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+.register-button {
+  margin-left: 10px;
+  background-color: #42b72a;
+  border-style: none;
+  outline: none;
+  height: 20px;
 }
