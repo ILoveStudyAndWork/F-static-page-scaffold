@@ -43,5 +43,14 @@ h1{
   background-color: #42b72a;
   border-style: none;
   outline: none;
-  height: 20px;
+  height: 23px;
+  color: white;
+}
+.join-facebook::after {
+  content: "";
+  border: 6px solid transparent;
+  border-top-color: white;
+  position: relative;
+  bottom: -16px;
+  left: 6px;
 }
