@@ -20,9 +20,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-header, main {
-  border:1px solid blue;
-}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -44,8 +42,9 @@ h1{
   background-color: #42b72a;
   border-style: none;
   outline: none;
-  height: 23px;
+  height: 22px;
   color: white;
+  padding: 2px 8px;
 }
 .join-facebook::after {
   content: "";
@@ -61,17 +60,21 @@ h1{
 }
 
 main {
-  margin: 20px 150px;
+  margin: 20px 150px 100px 150px;
 }
 .figure-section {
   display: flex;
   text-align: center;
   justify-content: space-between;
+  margin-top: 50px;
 }
 figure {
   background-color: white;
   margin: 0;
+  padding-bottom: 30px;
+  flex-basis: 48%;
 }
+
 
 figure >img {
   padding: 20px;
@@ -87,5 +90,7 @@ figure >img {
 }
 
 .start{
-  margin-top: 50px;
+  margin-top: 90px;
+  padding: 2px 7px;
+  border: 1px #808080 solid;
 }
