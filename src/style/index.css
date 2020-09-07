@@ -54,3 +54,15 @@ h1{
   bottom: -16px;
   left: 6px;
 }
+
+.content {
+  width: 981px;
+}
+
+main {
+  margin: 20px 150px;
+}
+.figure-section {
+  display: flex;
+  text-align: center;
+}
