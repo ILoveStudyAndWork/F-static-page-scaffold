@@ -5,9 +5,10 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: #e9ebee;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+  BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
 }
 
 * {
@@ -65,4 +66,26 @@ main {
 .figure-section {
   display: flex;
   text-align: center;
+  justify-content: space-between;
+}
+figure {
+  background-color: white;
+  margin: 0;
+}
+
+figure >img {
+  padding: 20px;
+}
+
+.img-title {
+  font-size: large;
+  font-weight: bolder;
+  margin: 10px ;
+}
+.img-description {
+  padding: 0 20px;
+}
+
+.start{
+  margin-top: 50px;
 }
